@@ -1,0 +1,32 @@
+{
+  "name": "bisheng-project",
+  "version": "1.0.0",
+  "description": "bisheng test",
+  "main": "index.js",
+  "scripts": {
+    "start": "bisheng start"
+  },
+  "keywords": [
+    "bisheng"
+  ],
+  "author": "echo",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.4.3",
+    "bisheng": "^0.28.3",
+    "bisheng-plugin-toc": "^0.4.4",
+    "docsearch.js": "^2.5.2",
+    "intersection-observer": "^0.5.0",
+    "jsonml.js": "^0.1.0",
+    "rc-drawer-menu": "^0.5.7",
+    "react-github-button": "^0.1.11",
+    "scrollama": "^1.4.1",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0",
+    "bisheng-plugin-antd": "^0.16.3",
+    "bisheng-plugin-react": "^0.6.3",
+    "css-split-webpack-plugin": "^0.2.5"
+  }
+}
