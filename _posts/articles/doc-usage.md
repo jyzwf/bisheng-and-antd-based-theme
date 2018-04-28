@@ -1,3 +1,13 @@
+## Build Setup
+```bash
+git clone ...
+
+npm install
+
+npm start
+```
+
+
 ## 文件目录
 ```bash
 └── sad-doc
@@ -18,7 +28,7 @@
 ## bisheng.souche.config.js
 该文件用于配置 `_post` 文件下 `markdown` 文件的在菜单栏里面出现的顺序、子菜单栏别名等
 
-假设 `_post` 文件夹下的内容如下所示
+假设 `_post` 文件夹下的内容如下所示
 ```bash
 └──_posts
     ├── firstLevelArticle1.md
@@ -79,8 +89,8 @@ module.exports = {
 
 ### postConfig
 该对象放所有 `markdown` 文件的配置，即上面的 `_posts` 文件夹的配置  
-`postConfig`的所有属性名必须与 `_posts` 文件夹里面的文件名相同，如果在 `_posts` 文件夹下就直接有 `markdown` 文件，那么要为该这些文件指定 出现在菜单栏里面的顺序，从 `1` 开始  
-
+`postConfig`的所有属性名必须与 `_posts` 文件夹里面的文件名相同，如果在 `_posts` 文件夹下就直接有 `markdown` 文件，那么要为该这些文件指定 出现在菜单栏里面的顺序，从 `1` 开始  
+
 下面是 `_posts` 下一个文件夹的配置，具体可以参考上面的结构  
 
 #### name
@@ -99,7 +109,7 @@ module.exports = {
 
 
 #### children
-如果该文件夹下还有文件夹，则继续做如上配置
+如果该文件夹下还有文件夹，则继续做如上配置
 
 
 
@@ -154,4 +164,4 @@ title: 该 markdown 的名字
 ```
 
 
-参考 [bisheng](https://github.com/benjycui/bisheng/blob/master/README.md)
+参考 [bisheng](https://github.com/benjycui/bisheng/blob/master/README.md)
